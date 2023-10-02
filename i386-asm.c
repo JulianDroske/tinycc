@@ -1393,7 +1393,7 @@ ST_FUNC void asm_compute_constraints(ASMOperand *operands,
 	case 'R':
 	case 'p': /* A general address, for x86(64) any register is acceptable*/
             /* any general register */
-            for(reg = 0; reg < 8; reg++) {
+            for(reg = 0; reg < NB_ASM_REGS; reg++) {
                 if (!is_reg_allocated(reg))
                     goto reg_found;
             }
