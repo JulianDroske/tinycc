@@ -149,7 +149,7 @@ static pthread_spinlock_t bounds_spin;
 #define HAVE_MEMALIGN          (1)
 #define MALLOC_REDIR           (1)
 #define HAVE_PTHREAD_CREATE    (1)
-#define HAVE_CTYPE             (1)
+// #define HAVE_CTYPE             (1)
 #define HAVE_ERRNO             (1)
 #define HAVE_SIGNAL            (1)
 #define HAVE_SIGACTION         (1)
